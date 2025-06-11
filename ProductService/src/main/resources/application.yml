@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: ${kafka_bootstrap}
+  datasource:
+    url: ${db_url}
+    username: ${db_username}
+    password: ${db_password}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  liquibase:
+    enabled: false

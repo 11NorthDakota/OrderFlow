@@ -6,6 +6,7 @@
 
 
 ##Поток обработки
+
 Пользователь отправляет заказ в Order Service
 
 Order Service проверяет наличие каждого product в Product Service
